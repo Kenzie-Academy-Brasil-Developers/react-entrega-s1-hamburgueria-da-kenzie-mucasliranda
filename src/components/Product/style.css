@@ -1,0 +1,79 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+section {
+  margin: 12px 15px;
+
+  border-radius: 5px;
+  border: 2px solid #E0E0E0;
+}
+
+section:hover {
+  border: 2px solid #333333;
+}
+
+.imgBackground {
+  width: 300px;
+  height: 150px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #F5F5F5;
+}
+
+.dados {
+  padding: 23px 21px;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.dados h3 {
+  margin-bottom: 14px;
+
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.dados span {
+  margin-bottom: 14px;
+
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #828282;
+}
+
+.dados p {
+  margin-bottom: 14px;
+
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #27AE60;
+}
+
+/* .dados p::after {
+  content: ",00";
+} */
+
+.dados button {
+  padding: 11.5px 20px;
+
+  color: #FFF;
+  border: none;
+  border-radius: 8px;
+  background-color: #27AE60;
+}
+
+.dados button:hover {
+  background-color: #93D7AF;
+}

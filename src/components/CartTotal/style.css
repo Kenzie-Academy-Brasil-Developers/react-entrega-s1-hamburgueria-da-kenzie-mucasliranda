@@ -1,0 +1,54 @@
+
+
+
+.cartTotal {
+  width: 320px;
+  height: 145px;
+
+  margin: 0px 15px;
+  padding: 21px 18px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  background-color: #F5F5F5;
+}
+
+.cartTotal div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartTotal h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.cartTotal span {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #828282;
+}
+
+.cartTotal button {
+  padding: 15px 0px;
+
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #828282;
+  white-space: nowrap;
+
+  border: none;
+  border-radius: 8px;
+  background-color: #E0E0E0;
+}
+
+.cartTotal button:hover {
+  color: #E0E0E0;
+  background-color: #828282;
+}

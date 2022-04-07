@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700&family=Montserrat:wght@100;300;400;500;700&family=Nunito:wght@300;400;500;600;700;800&family=Poppins:wght@100;300;400;500;700&family=Roboto:wght@100;400;500;700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100vw;
+  /* height: 139px; */
+
+  padding: 14px 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #F5F5F5;
+}
+
+header img {
+  margin-bottom: 14px;
+}
+
+header input {
+  width: calc(100vw - 30px);
+  max-width: 400px;
+  padding: 10px 15px;
+
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #E0E0E0;
+  
+
+  border-radius: 8px;
+  border: 2px solid #E0E0E0;
+}
+
+header input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #E0E0E0;
+}
+
+@media only screen and (min-width: 1010px) {
+  header {
+    height: 80px;
+
+    padding: 0px 100px;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
